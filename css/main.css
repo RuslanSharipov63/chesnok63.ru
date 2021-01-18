@@ -1,0 +1,406 @@
+html, body {
+	
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	/*background: #3baa36;*/
+  background: url("../img/fon.jpg");
+}
+
+
+ 
+ .header {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+	  margin: auto;
+	
+	 
+ }
+
+   .header div {
+   
+   display: flex;
+   justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 20%;
+	height: 3em;
+	background: linear-gradient(180deg, #4682B4, #1E90FF);
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 125%;
+	font-weight: bold;
+	color: #FAFAD2;
+	opacity: 0.9;
+	font-family: OfficinaSerifCTT-Bold;
+	padding: 0.5%;
+   }
+
+
+   a {
+	   text-decoration: none;
+	   color: #FAFAD2;
+	   
+   }
+   
+.phone {
+    display: flex;
+	 flex-direction: column;
+	 padding-top: 2%;
+}
+
+.phone a {
+    padding-top: 1%;
+}
+
+   h1 {
+	   text-align: center;
+	   color: #FFFF00;
+	   font-size: 500%;
+	   font-family: ProunX-Bold;
+	   text-shadow: 5px 5px 5px #000000;
+   }
+   
+    .zapoved p {
+		display: flex;
+		justify-content: center;
+		margin: 0px auto;
+		margin-bottom: 20px;
+		text-align: center;
+		color: #006400;
+		font-size: 200%;
+		text-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		font-weight: bold;
+		font-family: OfficinaSerifCTT-Bold;
+		letter-spacing: 1px;
+		background-color: #9ACD32;
+		width: 60%;
+		opacity: 0.8;
+		border-radius: 15px;
+		
+	}
+
+  
+
+ #picture {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+     margin: 0px auto;
+	 height: 666px;
+	 width: 1000px;
+	 background-image: url("../img/farmers.jpg");
+	 background-size: 100% 100%; 
+	 border: 5px solid #DEB887;
+	
+	 
+	 
+}
+
+#picture a {
+	color: #000000;
+}
+
+
+
+#picture div {
+	display: flex;
+	 justify-content: center;
+	 align-items: center;
+	height: 50px;
+	width: 23%;
+	margin-left: 10px;
+	margin-top: 10px;
+	background: #9ACD32;
+	font-size: 130%;
+	/*box-shadow: 5px 4px 2px #6B8E23;*/
+	border-radius: 5px;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-family: Mak-Bold;
+	
+	
+}
+
+#picture div:hover{
+	background: #00BFFF;
+}
+
+#picture div:active{
+	background: #00FF00;
+}
+
+@font-face {
+	font-family: OfficinaSerifCTT-Bold;
+	src: url("../fonts/OfficinaSerifCTT-Bold.woff");
+}
+
+ @font-face {
+	font-family: Mak-Bold;	
+	src: url("../fonts/Mak-Bold.woff");
+	
+ }
+
+ @font-face {
+ font-family: ProunX-Bold;
+ src: url("../fonts/ProunX-Bold.woff");
+ }
+
+
+
+ .footer {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	justify-content: center;
+	align-content: center;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+ }
+
+ .footer div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 30%;
+	background-color: #1E90FF;
+	font-size: 120%;
+	opacity: 0.8;
+	font-weight: bold;
+	font-family: OfficinaSerifCTT-Bold;
+	color: #FAFAD2;
+	letter-spacing: 1px;
+	padding: 0.5%;
+ }
+ 
+ /*О нас*/
+ 
+ .aboutus {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px auto;
+	 width: 60%;
+	 background-color: #3CB371;
+	border-radius: 15px;
+	opacity: 0.8;
+	
+ }
+ 
+ .item, .item2, .item3 {
+	  display: flex;
+      color: #FFFFFF;
+	  font-size: 2em;
+	  margin: 1%;
+	  text-indent: 10px;
+	
+	  
+	 
+ }
+ 
+
+ 
+ /* меню страницы о нас*/
+ .menu {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+     margin: 0px auto;
+	 width: 60%;
+    margin-bottom: 50px;	 
+	 
+}
+
+.menu {
+	color: #000000;
+}
+
+
+
+.menu div {
+	display: flex;
+	 justify-content: center;
+	 align-content: center;
+	 align-items: center;
+	padding: 1%;
+	width: 23%;
+	margin-left: 20px;
+	margin-top: 10px;
+	background: #9ACD32;
+	font-size: 130%;
+	border-radius: 5px;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-family: Mak-Bold;
+	
+	
+}
+
+.menu div:hover{
+	background: #00BFFF;
+}
+.menu div:active{
+	background: #00FF00;
+}
+
+.menu a {
+	color: #000000;
+}
+
+
+/*Страница ассортимент*/
+
+h2 {
+    text-align: center;
+    color: #FFFF00;
+    font-size: 3em;
+}
+
+
+
+.fotoassort {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+     
+}
+
+
+
+
+.items2 {
+    height: 448px; 
+    width: 336px;
+    background: url("../img/foto4.jpeg") 50%/cover no-repeat;
+    
+    margin: 1%;
+}
+
+.items3 {
+    height: 448px; 
+    width: 336px;
+    background: url("../img/foto5.jpeg") 50%/cover no-repeat;
+ 
+    margin: 1%;
+}
+
+
+.items4 {
+    height: 448px; 
+    width: 336px;
+    background: url("../img/foto6.jpeg") 50%/cover no-repeat;
+    
+    margin: 1%;
+}
+
+
+
+.katalog {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 60%;
+    color: #FFFFFF;
+     background-color: #3CB371;
+    opacity: 0.8;
+    font-size: 2em;
+    border-radius: 15px;
+    
+}
+
+
+li {
+   
+    list-style-type: none;
+    text-align: center;
+   
+}
+
+ul > li:before{
+    content: '✔';
+     
+    padding-right: 10px;
+    color: yellow;
+   
+}
+
+/*Страница Контакты*/
+
+.adress2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin: 0px auto;
+	 background-color: #3CB371;
+	border-radius: 15px;
+	opacity: 0.8;
+	
+}
+
+
+
+p {
+	color: #FFFFFF;
+	font-size: 2em;
+	color: #FFFFFF;
+	padding: 2%;
+}
+
+.karta {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+@media all and (max-width: 1200px){ 
+    
+    .aboutus { 
+        width: 90%;
+        padding: 2%;
+    }
+    
+    .aboutus div {
+        margin-top: 5%;
+    }
+    .menu {
+        width: 90%;
+        margin-right: 6%;
+    }
+.menu div {width: 21%; text-align: center; height: 3em; font-size: 1.1em; letter-spacing: 4px;}
+
+
+.adress2 {width: 90%;}
+
+p {font-size: 1em;}
+
+.karta {width: 90%;}
+
+}
+
+@media all and (max-width: 1000px){
+
+	#picture {justify-content: space-around; width: 100%;}
+	#picture div {height: 70px; font-size: 1.1em; width: 21%; letter-spacing: 3px;}
+	 .footer {flex-direction: column; justify-content: center; align-items: center;}
+	.footer div {margin: 1%; width: 70%; height: 6em; border-radius: 5px; font-size: 1.8em; justify-content: flex-start; padding-left: 10%;}
+     .header div {width: 30%; height: 4em; font-size: 1.8em; padding: 1%;}
+     .zapoved p {width: 90%; font-size: 160%;}
+     .katalog {width: 90%;}
+     ul > li:before{padding-right: 15px;}
+     h2 {font-size: 4em;}
+     
+}
+
+
